@@ -1,0 +1,57 @@
+/*set the font for entire body*/
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*set styles for the form*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+/*style the labels*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/*style the text input fields*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+/*style the submit button*/
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+}
+/*hover effect for submit button*/
+input[type="submit"]:hover {
+    background-color:cornflowerblue;
+}
+/*style error message*/
+.error {
+    color: red;
+}
+/*style the heading*/
+h2{
+    text-align: center;
+    color:navy
+}
+/*style the response after submission*/
+p {
+    text-align:left;
+    font-size: 22px; 
+}
